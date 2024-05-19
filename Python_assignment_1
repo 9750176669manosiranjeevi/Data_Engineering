@@ -1,0 +1,39 @@
+#1.assignment1_var_declaration
+days_in_week=7
+print(days_in_week)
+#2.Arithmetic Operations
+a=15
+b=4
+print("the values are",a+b,a-b,a*b,a/b,a%b)
+#3.Type Conversion
+stri='123'
+number=int(stri)
+print(type(number))
+#4.String Concatenation
+first_name="Mano"
+last_name="Siranjeevi"
+full_name=first_name+" "+last_name
+print(full_name)
+#5.Updating the variables
+score=0
+score=((score+5)*3)-2
+print("The score Value is",score)
+#6. Boolean Variables
+is_sunny=False 
+print(is_sunny)
+#6. Swapping the variables
+a=4
+b=5
+c=b
+b=a
+a=c
+print(a,b)
+#7. User input
+name=(str(input("Enter your name: ")))
+age=(int(input("Enter your age:")))
+print(f"Welcome, your name is {name} and your age is {age}")
+#8. Dynamic Typing
+data=10
+print(type(data))
+data=str(data)
+print(type(data))
